@@ -38,7 +38,7 @@ var redCurrant = {
 var writeBerries = function (berries) {
   document.write('<h1>Berries</h1>');
 
-  document.write('<ol>');
+  document.write('<ul>');
 
   berries.forEach(function (berry) {
     document.write('<li>');
@@ -69,7 +69,7 @@ var writeBerries = function (berries) {
     document.write('</li>');
   });
 
-  document.write('</ol');
+  document.write('</ul');
 };
 
 // ##########################################################
